@@ -1,0 +1,103 @@
+
+.main{
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: blue; */
+}
+
+.weather{
+  background-color: rgb(122, 51, 229);
+  width: 400px;
+  height: 600px;
+  margin:auto auto;
+}
+
+.header{
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.header input{
+  width: 250px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border: 0;
+}
+
+.header button{
+  width: 50px;
+  border-radius: 35px;
+  border: 0;
+}
+
+.climate-img{
+  width: 100%;
+  height:200px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.climate-img img{
+  width: 200px;
+  margin: auto;
+}
+
+.temp-body{
+  display: flex;
+  justify-content: center;
+}
+
+.temp h1{
+  margin: 0px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.temp h3{
+  margin-top: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.hum{
+  display: flex;
+  gap: 5px;
+}
+
+.hum-right h3{
+  margin: 0px 0px;
+}
+
+.hum-right h5{
+  margin: 0px 0px;
+}
+
+.speed{
+  display: flex;
+  gap: 5px;
+}
+
+.speed-right h3{
+  margin: 0px 0px;
+}
+
+.speed-right h5{
+  margin: 0px 0px;
+}
+
+.bottom{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
